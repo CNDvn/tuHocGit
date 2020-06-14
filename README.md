@@ -7,3 +7,7 @@ This project is just a demo how to use Git
 //git log (xem lich su commit)
 //git show syntax: git show id-commit (show noi dung cua commit)
 //git diff (difference) (xem nd nhung file modified)
+
+//working directory (folder lam viec)
+//staging area (khi commit thi cac file dang thay doi o 'working directory' se duoc add vao 'staging area')
+//git repository

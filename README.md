@@ -13,3 +13,6 @@ This project is just a demo how to use Git
 //git repository
 
 //gitk (open GUI\Graphic user interface)
+
+//git checkout syntax: git checkout --<nameFile> (delete modified of file chua len "staging area")
+//git reset

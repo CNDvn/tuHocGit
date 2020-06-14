@@ -11,3 +11,5 @@ This project is just a demo how to use Git
 //working directory (folder lam viec)
 //staging area (khi commit thi cac file dang thay doi o 'working directory' se duoc add vao 'staging area')
 //git repository
+
+//gitk (open GUI\Graphic user interface)

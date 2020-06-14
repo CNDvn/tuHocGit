@@ -14,5 +14,5 @@ This project is just a demo how to use Git
 
 //gitk (open GUI\Graphic user interface)
 
-//git checkout syntax: git checkout --<nameFile> (delete modified of file chua len "staging area")
-//git reset
+//git checkout syntax: git checkout --nameFile (delete modified of file chua len "staging area")
+//git reset syntax: git reset HEAD nameFile (de file tu "staging area" xuong "working directory")

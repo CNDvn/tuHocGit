@@ -17,6 +17,11 @@ This project is just a demo how to use Git
 //git checkout syntax: git checkout --nameFile (delete modified of file chua len "staging area")
 //git reset syntax: git reset HEAD nameFile (de file tu "staging area" xuong "working directory")
 
-//git checkout - b <branch> (branching)
-//git checkout <branch>
-//git merge
+//git checkout - b <name_branch> (branching) (tao branch)
+//git checkout <branch> (switch branch)
+//git merge (keo nhung thay doi cua branch nay vao branch khac)
+ex: keo branch B vao A
+-phai o branch A truoc (git branch A)
+-git merge B
+
+//git branch -D <name_branch> (delete a branch)

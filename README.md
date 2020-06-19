@@ -16,3 +16,7 @@ This project is just a demo how to use Git
 
 //git checkout syntax: git checkout --nameFile (delete modified of file chua len "staging area")
 //git reset syntax: git reset HEAD nameFile (de file tu "staging area" xuong "working directory")
+
+//git checkout - b <branch> (branching)
+//git checkout <branch>
+//git merge

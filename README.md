@@ -1,43 +1,44 @@
+
 This project is just a demo how to use Git
-//git init (tạo priject mới)
+//git init (tạo project mới)
 //git status
 //git add
 //git commit (git commit -m 'mo ta commit')
 
-//git log (xem lich su commit)
-//git show syntax: git show id-commit (show noi dung cua commit)
-//git diff (difference) (xem nd nhung file modified)
+//git log (xem lịch sử commit)
+//git show syntax: git show id-commit (show nội dung của commit)
+//git diff (difference) (xem nội dung những file modified)
 
-//working directory (folder lam viec)
-//staging area (khi commit thi cac file dang thay doi o 'working directory' se duoc add vao 'staging area')
+//working directory (folder làm việc)
+//staging area (khi commit thì các file đang thay đổi ở 'working directory' sẽ được add vào 'staging area')
 //git repository
 
 //gitk (open GUI\Graphic user interface)
 
-//git checkout |syntax: git checkout --nameFile (delete modified of file chua len "staging area")
-//git reset |syntax: git reset HEAD nameFile (de file tu "staging area" xuong "working directory")
+//git checkout |syntax: git checkout --nameFile (delete modified of file chưa lên "staging area")
+//git reset |syntax: git reset HEAD nameFile (để file từ "staging area" xuống "working directory")
 
-//git checkout - b <name_branch> (branching) (tao branch)
+//git checkout - b <name_branch> (branching) (tạo branch)
 //git checkout <branch> (switch branch)
-//git merge (keo nhung thay doi cua branch nay vao branch khac)
-ex: keo branch B vao A
--phai o branch A truoc (git branch A)
+//git merge (kéo những thay đổi của branch này vào branch khác)
+ex: kéo branch B vào A
+-phải đang ở trong branch A trước (git branch A)
 -git merge B
 
 //git branch -D <name_branch> (delete a branch)
 
 == dung git reset de undo commit
-//git reset --soft <id commit> (dua ve staging area)
-//git reset --mixed <id commit> (dua ve working directory)
-//git reset --hard <id commit> (bo han cai commit chon)
+//git reset --soft <id commit> (đưa về staging area)
+//git reset --mixed <id commit> (đưa về working directory)
+//git reset --hard <id commit> (bỏ hản cái commit đã chọn)
 
-//git revert <id commit> (tra lai trang thai luc truoc || bo mot commit chi dinh tuc la quay tro lai noi dung trong file truoc khi commit cai do)
+//git revert <id commit> (trả lại trạng thái lúc trước || bỏ một commit chỉ định, tức là quay trở lại nội dung trong file trước khi commit cái đó)
 
 // .gitignore 
 
 ==Github
 //git remote add origin link_repository
-//git remote -v (show danh sach cac remote repo)
+//git remote -v (show danh sách các remote repo)
 
-//git push -u origin master (khi lan dau push thi dung cau lenh nay) (khong duoc thi thu git push -f origin master)
+//git push -u origin master (khi lần đầu push thì dùng câu lệnh này) (không được thì thử git push -f origin master)
 

@@ -14,8 +14,8 @@ This project is just a demo how to use Git
 
 //gitk (open GUI\Graphic user interface)
 
-//git checkout syntax: git checkout --nameFile (delete modified of file chua len "staging area")
-//git reset syntax: git reset HEAD nameFile (de file tu "staging area" xuong "working directory")
+//git checkout |syntax: git checkout --nameFile (delete modified of file chua len "staging area")
+//git reset |syntax: git reset HEAD nameFile (de file tu "staging area" xuong "working directory")
 
 //git checkout - b <name_branch> (branching) (tao branch)
 //git checkout <branch> (switch branch)
@@ -25,3 +25,8 @@ ex: keo branch B vao A
 -git merge B
 
 //git branch -D <name_branch> (delete a branch)
+
+== dung git reset de undo commit
+//git reset --soft <id commit> (dua ve staging area)
+//git reset --mixed <id commit> (dua ve working directory)
+//git reset --hard <id commit> (bo han cai commit chon)

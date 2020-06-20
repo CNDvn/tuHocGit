@@ -30,3 +30,9 @@ ex: keo branch B vao A
 //git reset --soft <id commit> (dua ve staging area)
 //git reset --mixed <id commit> (dua ve working directory)
 //git reset --hard <id commit> (bo han cai commit chon)
+
+//git revert <id commit> (tra lai trang thai luc truoc || bo mot commit chi dinh tuc la quay tro lai noi dung trong file truoc khi commit cai do)
+
+//
+
+

@@ -33,6 +33,11 @@ ex: keo branch B vao A
 
 //git revert <id commit> (tra lai trang thai luc truoc || bo mot commit chi dinh tuc la quay tro lai noi dung trong file truoc khi commit cai do)
 
-//
+// .gitignore 
 
+==Github
+//git remote add origin link_repository
+//git remote -v (show danh sach cac remote repo)
+
+//git push -u origin master (khi lan dau push thi dung cau lenh nay) (khong duoc thi thu git push -f origin master)
 

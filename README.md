@@ -42,3 +42,9 @@ ex: kéo branch B vào A
 
 //git push -u origin master (khi lần đầu push thì dùng câu lệnh này) (không được thì thử git push -f origin master)
 
+//git config --global credential.helper store
+// ^^^ not recommend (~/.git-credentitals)
+
+//git config --global credential.helper "cache --timeout=18000"
+
+//google "gnome-keyring" "git ssh"

@@ -43,8 +43,8 @@ ex: kéo branch B vào A
 //git push -u origin master (khi lần đầu push thì dùng câu lệnh này) (không được thì thử git push -f origin master)
 
 //git config --global credential.helper store
-// ^^^ not recommend (~/.git-credentitals)
+// ^^^ not recommend (~/.git-credentitals) (lưu thông tin đăng nhập vào ổ cứng mà không mã hóa nên dễ bị lộ)
 
-//git config --global credential.helper "cache --timeout=18000"
+//git config --global credential.helper "cache --timeout=18000" (lưu vào ram vào ram == đến timeout là xóa)
 
-//google "gnome-keyring" "git ssh"
+//google "gnome-keyring" "git ssh"--timeout=18000

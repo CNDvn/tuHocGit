@@ -48,3 +48,6 @@ ex: kéo branch B vào A
 //git config --global credential.helper "cache --timeout=18000" (lưu vào ram vào ram == đến timeout là xóa)
 
 //google "gnome-keyring" "git ssh"--timeout=18000
+
+//git clone (git clone <Name'sRepository>)
+//git pull (để tải các thay đổi trên git)
